@@ -22,7 +22,7 @@ function initProductPage() {
   const gallery = document.getElementById("galleryMain");
   if (!gallery) return;
 
-  const images = ["images/product ear.png", "images/product earbud.png", "images/heroic image.png"];
+  const images = ["product ear.png", "product earbud.png", "heroic image.png"];
   const mainImg = document.getElementById("galleryMainImg");
   const thumbs = document.querySelectorAll(".gallery-thumbs button");
   thumbs.forEach((btn, i) => {

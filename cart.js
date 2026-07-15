@@ -7,7 +7,7 @@ const SB_PRODUCT = {
   name: "SonicBuds Pro",
   variant: "Midnight Black",
   price: 129,
-  image: "images/product ear.png",
+  image: "product ear.png",
 };
 
 function money(n) { return "$" + n.toFixed(2); }
